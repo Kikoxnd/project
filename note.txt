@@ -1,0 +1,6 @@
+admin password
+johndaniel = kiko
+acc 1
+adibaqil32 = 1234
+acc 2
+adibaqil56 = 1234

@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+body{
+    background: url(images/loginback.jpg); 
+    background-size: cover;
+}
+.containerlogin{
+    width: 370px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    /* width: 350px; */
+    padding: 20px 32px;
+    border: black solid;
+    border-width: 1px;
+    border-radius: 8px;
+    /* background-color: rgb(70, 68, 68); */
+    backdrop-filter: blur(7px);
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    box-shadow: 10px 9px 8px -5px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.containerlogin .linetitle{
+    
+    margin:0px;
+    padding:0px;
+    border-top:3px solid #ffff;
+    margin: 0px 0px 40px 0;
+}
+.containerlogin .logintitle{
+    /* border-bottom: 4px solid; */
+    display: flex;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #ffff;
+    text-align: center;
+    justify-content: center;
+}
+
+.containerlogin p{
+    font-size: 20px;
+    margin: 15px 0 ;
+    color: #ffff;
+}
+
+.containerlogin input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+
+.containerlogin button{
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px 15px;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
