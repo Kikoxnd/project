@@ -121,6 +121,8 @@ in both admin and customer.
                   </div>
                   <?php
                }
+
+               
                // Display if the item is received by the customer
                elseif ($fetch_orders['status'] == '1') {
                   ?>
